@@ -14,8 +14,8 @@ public class Main {
     public static final boolean HARD_MODE_OF_CHECK = true;
 
     public static void main(String[] args) throws Exception {
-        int indexStart = 0;//индвкс с которого начинается перечисление входных файлов
-        int indexEnd = args.length - 1; //индвкс которым заканчивается перечисление входных файлов
+        int indexStart = 0;//индекс с которого начинается перечисление входных файлов
+        int indexEnd = args.length - 1; //индекс которым заканчивается перечисление входных файлов
         String typeOfSort = null;//тип сортировки -a или -d (необязательный параметр, по умолчанию -a)
         String typeOfFile = null;//тип данных -i или -s
         String fileOut = null;//имя выходного файла
